@@ -1,0 +1,39 @@
+body
+{
+	background-color: yellowgreen;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0 0 0 2em;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+a,
+a:visited
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+li  ul
+{
+	display: none;
+	color: #999;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+li:hover > ul
+{
+	display: block;
+	background-color: rgba(0, 20, 0, 0.4); /* for better visualisation */
+}

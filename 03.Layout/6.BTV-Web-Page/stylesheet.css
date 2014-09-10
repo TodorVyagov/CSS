@@ -1,0 +1,113 @@
+﻿html, body, div, header, nav, section, aside, ul, li, h2, a
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #000;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#container
+{
+	display: inline-block;
+	width: content;
+	background-color: #1e3741;
+	border: 1px solid #87A3AE;
+	border-radius: 10px;
+}
+
+header
+{
+	padding: 10px;
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+a
+{
+	text-decoration: none;
+	color: #7b9ead;
+}
+
+nav a
+{
+	display: inline-block;
+	padding: 0 1em;
+	background-color: #4b5f67;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+}
+
+nav li:first-of-type a
+{
+	background-color: #1e3741;
+}
+
+li
+{
+	list-style-type: none;
+}	
+
+aside
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25em;
+}
+
+aside h2
+{
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+	color: #FFF;
+	background-color: #00968B;
+}
+
+aside li a
+{
+	display: block;
+	padding: 1em 1em;
+	font-weight: bold;
+	
+}
+
+aside li
+{
+	border-bottom: 1px solid #2D434E;
+}
+
+aside li:last-of-type
+{
+	border: 0;
+}
+
+aside li a:hover
+{
+	color: #FFF;
+	background-color: #00968B;
+}
+
+#video
+{
+	display: inline-block;
+	width: 385px;
+	height: 282px;
+	background: url('web-news.jpg') no-repeat;
+	margin: 0 50px 20px 0;
+}
+
+
+

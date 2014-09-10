@@ -1,0 +1,214 @@
+﻿html, body, section, nav, aside, header, footer, input, button, ul, li, h1, h2, h3, p, a
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	margin: 2px;
+	display: inline-block;
+	background-color: #EEE;
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 2px;
+	font-size: 16px;
+	font-family: sans-serif, Arial;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+/*Nav*/
+nav
+{
+	display: inline-block;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+nav h1
+{
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+nav h1 img
+{
+	width: 25px;
+	height: 25px;
+}
+
+nav section
+{
+	margin-top: 15px;
+}
+
+nav h2
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: #990000;
+}
+
+nav li a:before,
+nav h2:before
+{
+	content: "CSS ";
+}
+
+.css2:before
+{
+	content: "CSS2 ";
+}
+/*End of nav*/
+
+/*main-content*/
+#main-content
+{
+	margin-left: 15px;
+	padding: 5px;
+	display: inline-block;
+	background-color: #FFF;
+	border: 2px solid #AAA;
+	vertical-align: top;
+	width: 550px;
+}
+
+#main-content h1
+{
+	font-size: 1.7em;
+	margin: 15px 0 15px 0;
+}
+
+#main-content header
+{
+	border-bottom: 2px solid #888;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+
+#main-content h2
+{
+	color: #FFF;
+	background-color: #888;
+	font-size: 1em;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+button
+{
+	background-color: #FFF;
+	width: 100px;
+	border: 1px solid black;
+}
+
+button:active
+{
+	background-color: #DDD;
+	width: 100px;
+	border: 1px solid #888;
+}
+
+#main-content img
+{
+	float: left;
+	margin-right: 5px;
+	height: 150px;
+	width: 150px;
+}
+
+#main-content a,
+aside a
+{
+	color: #B80000;
+}
+
+#main-content section:first-of-type:after
+{
+	content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+#main-content section
+{
+	margin-top: 10px;
+}
+
+#main-content p
+{
+	padding: 15px 0 15px 0;
+}
+
+#main-content section:first-of-type p
+{
+	font-weight: bold;
+}
+
+#main-content footer
+{
+	margin: 10px 0;
+	padding: 5px 0;
+	border-top: 2px solid #888;
+	border-bottom: 2px solid #888;
+}
+/*End of main-content*/
+
+/* Aside*/
+aside
+{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #FFF;
+	width: 180px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+aside li
+{
+	border: 1px solid #999;
+	border-radius: 2px;
+	vertical-align: top;
+	padding: 5px 0px;
+}
+
+aside input[type="text"]
+{
+	width: 70%;
+}
+
+aside a
+{
+	display: block;
+	margin: 0 5px;
+}
+
+aside h3
+{
+	color: #FFF;
+	background-color: #888;
+	font-size: 1em;
+	font-weight: bold;
+	margin: -5px 0 5px 0;
+}
+
+aside button
+{
+	background-color: #A4FFFF;
+	color: #00A3A3;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 130px;
+	height: 30px;
+}

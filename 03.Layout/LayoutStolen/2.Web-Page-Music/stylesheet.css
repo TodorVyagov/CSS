@@ -1,0 +1,73 @@
+html, body, h1, section, article, img, header, footer,p ,span, button
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #EEE;
+	padding: 1em;
+	font-family: Helvetica, Tahoma;
+}
+
+h1
+{
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+img
+{
+	width: 250px;
+	height: 150px;
+	margin-right: 15px;
+	float: left;
+}
+
+img,
+article
+{
+	border: 2px solid #AAA;
+	border-radius: 2px
+}
+
+article
+{
+	width: 35em;
+	height: 10em;
+	background-color: #FFF;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding: 1.2em;
+	text-align: right;
+}
+
+button
+{
+	width: 100px;
+	height: 30px;
+	background: url('images/red-button.jpg');
+	background-size:100px 30px;
+	border-width: 1px;
+	border-color: red;
+	color: #FFF;
+}
+
+p
+{
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+a
+{
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
