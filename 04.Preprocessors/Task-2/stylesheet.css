@@ -1,0 +1,26 @@
+body 
+{
+  width: 900px;
+  height: 600px;
+}
+
+body label img 
+{
+  width: 140px;
+  height: 100px;
+  cursor: pointer;
+  border: 2px solid #777;
+}
+
+body input,
+body input + img 
+{
+  display: none;
+}
+
+body input:checked + img 
+{
+  display: block;
+  width: 600px;
+  border: 2px solid #777;
+}
