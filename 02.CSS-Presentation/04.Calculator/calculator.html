@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Programmer Calculator</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+	<div id="calculator">
+		<img src="images/calculator.png" width="12" height="16" alt="calculator" /><span>Calculator</span>
+		
+		<div id="main">
+			<header>
+				<nav>
+					<ul>
+						<li>View</li>
+						<li>Edit</li>
+						<li>Help</li>
+					</ul>
+				</nav>
+			</header>
+			
+			<section>
+				<input type="text" value="8854455"/>
+				<div id="binary">
+					<ul>
+						<li>0000<br /><span>63</span></li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000<br /><span>47</span></li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000<br /><span>32</span></li>
+					</ul>
+					<ul>
+						<li>0000<br /><span>31</span></li>
+						<li>0000</li>
+						<li>1000</li>
+						<li>0111</li>
+						<li>0001<br /><span>15</span></li>
+						<li>1011</li>
+						<li>1011</li>
+						<li>0111<br /><span>0</span></li>
+					</ul>
+				</div>
+				<div id="buttonsField">
+					<div id="radioNumeralSystem">
+						<input type="radio" id="hex" name="numSys" />
+						<label for="hex">Hex</label><br />
+						<input type="radio" id="dec" name="numSys" checked="checked" />
+						<label for="dec">Dec</label><br />
+						<input type="radio" id="oct" name="numSys" />
+						<label for="oct">Oct</label><br />
+						<input type="radio" id="bin" name="numSys" />
+						<label for="bin">Bin</label>
+					</div>
+					<div class="buttons">
+						<!-- First line of buttons -->
+						<button id="none" disabled="disabled">&nbsp;</button>
+						<button class="operator">Mod</button>
+						<button class="disabled" disabled="disabled">A</button>
+						<button class="m">MC</button>
+						<button class="m">MR</button>
+						<button class="m">MS</button>
+						<button class="m">M+</button>
+						<button class="m">M-</button>
+						<!-- Second line of buttons -->
+						<button class="operator">(</button>
+						<button class="operator">)</button>
+						<button class="disabled" disabled="disabled">B</button>
+						<button class="operator">&#8656;</button>
+						<button class="operator">CE</button>
+						<button class="operator">C</button>
+						<button class="operator">&#177;</button>
+						<button class="disabled" disabled="disabled">&#8730;</button>
+						<!-- Third line of buttons -->
+						<button class="operator">RoL</button>
+						<button class="operator">RoR</button>
+						<button class="disabled" disabled="disabled">C</button>
+						<button class="digit">7</button>
+						<button class="digit">8</button>
+						<button class="digit">9</button>
+						<button class="operator">/</button>
+						<button class="disabled" disabled="disabled">%</button>
+					</div>
+					<div id="radioBinaryLength">
+						<input type="radio" id="qword" name="binLen" checked="checked" />
+						<label for="qword">Qword</label><br />
+						<input type="radio" id="dword" name="binLen" />
+						<label for="dword">Dword</label><br />
+						<input type="radio" id="word" name="binLen" />
+						<label for="word">Word</label><br />
+						<input type="radio" id="byte" name="binLen" />
+						<label for="byte">Byte</label>
+					</div>
+					<div class="buttons">
+						<!-- First line of buttons -->
+						<button class="operator">Or</button>
+						<button class="operator">Xor</button>
+						<button class="disabled" disabled="disabled">D</button>
+						<button class="digit">4</button>
+						<button class="digit">5</button>
+						<button class="digit">6</button>
+						<button class="operator">*</button>
+						<button class="disabled" disabled="disabled">1/x</button>
+						<!-- Second line of buttons -->
+						<button class="operator">Lsh</button>
+						<button class="operator">Rsh</button>
+						<button class="disabled" disabled="disabled">E</button>
+						<button class="digit">1</button>
+						<button class="digit">2</button>
+						<button class="digit">3</button>
+						<button class="operator">-</button>
+						<button class="operator" id="high">=</button>
+						<!-- Third line of buttons -->
+						<button class="operator">Not</button>
+						<button class="operator">And</button>
+						<button class="disabled" disabled="disabled">F</button>
+						<button class="digit" id="wide">0</button>
+						<button class="disabled" disabled="disabled">.</button>
+						<button class="operator">+</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>

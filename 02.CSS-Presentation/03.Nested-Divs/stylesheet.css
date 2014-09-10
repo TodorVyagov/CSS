@@ -1,0 +1,22 @@
+body
+{
+	width: 900px;
+	/* 
+	In Mozzila it looks as in the picture when width: 1200px
+	In IE and Chrome - width: 500px;
+	So I used a value between them.
+	*/
+}
+
+div
+ {
+	background: #000000;
+	border: 1px solid #FF0000;     
+	border-radius: 150px;                
+	padding-right: 10%;          
+}
+
+.hidden
+{
+	display:none;
+}
