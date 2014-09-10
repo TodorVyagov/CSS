@@ -1,0 +1,80 @@
+html, body, div, aside, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	font-size: 16px;
+	font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+	margin: 10px 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.1em;
+}
+
+ul
+{
+	display: inline-block;
+	border-radius: 10px;
+	padding: 5px 15px;
+}
+
+li
+{
+	list-style-type: none;
+	position: relative;
+	border-bottom: 1px solid rgb(157, 0, 255);
+	padding: 5px 15px;
+}
+
+li:last-of-type
+{
+	border: 1px solid rgba(157, 0, 255, 0);
+}
+
+li:hover
+{
+	border: 1px solid rgb(157, 0, 255);
+	border-radius: 5px;
+}
+
+ul.sidebar
+{
+	background: -webkit-linear-gradient(#d19bff 0%,#8977ff 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.sidebar ul
+{
+	display: none;
+	background-color: rgb(181, 170, 255);
+	position: absolute;
+	left: 185px;
+	top: -5px;
+	padding: 5px 5px 5px 25px;
+}
+
+.sidebar > li > a
+{
+	font-size: 1.4em;
+}
+
+.sidebar li:hover ul
+{
+	display: block;
+}
+
+.sidebar li ul li
+{
+	width: 180px;
+}
+
+.sidebar li:hover ul li:first-of-type
+{
+	list-style-image: url("imgs/arrow.png");
+}

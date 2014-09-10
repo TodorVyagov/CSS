@@ -1,0 +1,109 @@
+﻿html, body, div, ul, li, a, h1, p, table, thead, tbody, th, td
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	padding: 50px;
+	width: 960px;
+	font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+	font-size: 18px;
+	color: #444444;
+}
+
+ul.accordion
+{
+	border: 1px solid black;
+	width: 398px;
+	list-style-type: none;
+}
+
+ul.accordion li
+{
+	border-bottom: 2px solid #000;
+}
+
+ul.accordion li:last-of-type
+{
+	border: 0;
+}
+
+ul.accordion li a.accordion-btn
+{
+	background: -webkit-linear-gradient(#EEEEEE 25%, #AAAAAA 75%);
+	text-align: center;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+ul.accordion li a.accordion-btn:hover
+{
+	background: #AAAAAA;
+}
+
+.accordion-content
+{
+	display: none;
+	background: #AAAAAA;
+	padding: 5px 15px;
+}
+
+.current .accordion-content
+{
+	display: block;
+}
+
+.accordion-content h1
+{
+	color: #5E5E5E;
+	font-size: 1.6em;
+	text-align: center;
+	margin: 5px 0;
+}
+
+.accordion-content p
+{
+	text-align: justify;
+}
+
+.accordion-content table
+{
+	margin: 15px 0 15px 6px;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+thead 
+{
+	background: -webkit-linear-gradient(#ECECEC, #898989);
+	border-top-left-radius: 15px;
+}
+
+thead th:first-child
+{
+	border-top-left-radius: 15px;
+}
+
+tbody tr:nth-of-type(odd)
+{
+	background: -webkit-linear-gradient(#CBCBCB, #898989);
+	color: #FFF;
+}
+
+tbody tr:nth-of-type(even)
+{
+	background: -webkit-linear-gradient(#898989, #CBCBCB);
+	color: #FFF;
+}
+
+th, td
+{
+	padding: 5px 5px;
+	border: 1px solid black;
+}

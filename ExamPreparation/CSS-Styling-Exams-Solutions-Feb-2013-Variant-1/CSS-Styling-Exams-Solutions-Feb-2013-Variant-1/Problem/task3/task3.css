@@ -1,0 +1,121 @@
+html, body, div, h1, ul, li, span, p, input, button
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	width: 960px;
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 16px;
+	color: #555555;
+}
+
+#wrapper > div
+{
+	display: inline-block;
+	margin: 30px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(#EEEEEE, #AAAAAA);
+	width: 350px;
+	padding: 5px 15px;
+}
+
+h1
+{
+	font-size: 1.8em;
+	text-align: center;
+	margin: 10px 0;
+}
+	
+li
+{
+	display: inline-block;
+	list-style-type: none;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 0 15px;
+	width: 200px;
+	height: 60px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+
+li span:first-child
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+li:after,
+.toshko-item p:before
+{
+	content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.date
+{
+	font-family: Consolas;
+	font-size: 0.8em;
+}
+
+.me-item
+{
+	background: -webkit-linear-gradient(#29EDFF, #C0FAFF);
+	float: right;
+}
+
+.me-item .date
+{
+	float: right;
+}
+
+.toshko-item
+{
+	background: -webkit-linear-gradient(#DFFFD2, #6FFF3B);
+}
+
+.toshko-item .date
+{
+	float: left;
+}
+
+.toshko-item span:first-child
+{
+	display: block;
+	float: right;
+}
+
+button
+{
+	background: -webkit-linear-gradient(#EDEDED, #ADADAD);
+	height: 32px;
+	width: 69px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 1.1em;
+	vertical-align: -2px;
+}
+
+button:hover
+{
+	background: #EEEEEE;
+}
+
+input[type="text"]
+{
+	background-color: #EEEEEE;
+	border: 0;
+	border-radius: 5px;
+	width: 260px;
+	height: 35px;
+	color: inherit;
+	padding-left: 15px;
+	margin: 2px 0;
+}
